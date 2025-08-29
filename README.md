@@ -74,3 +74,26 @@ POST /alert  (JSON body)
 }
 If ALERT_TOKEN is set, append ?token=YOURTOKEN. Returns { ok: true } on success.
 
+## Vercel Deployment
+
+This project can deploy fully (frontend + API + scheduled scraping) on Vercel.
+
+### Steps
+1. Set up a Postgres database (e.g. Neon, Supabase). Copy its connection string.
+2. In Vercel project settings add the following Environment Variables (Production + Preview):
+	- DATABASE_URL = (your Postgres connection string)
+	- PLAN_BASE_URL (optional override)
+	- PLAN_MAX_PAGES (optional, default 99)
+	- SCRAPE_INTERVAL_HOURS (cron already set to 6h, variable only used by legacy scripts)
+	- PLAN_STALE_AFTER_HOURS (default 24)
+	- DISCORD_WEBHOOK_URL (optional alerts)
+	- ALERT_TOKEN (optional to secure /api/alert if added later)
+3. Push to git. Import the repo in Vercel. Build command: `npm run build` (inherited from vercel.json).
+4. A cron job (every 6 hours) invokes `/api/scrape` to fetch and store new data.
+
+### Local dev with Postgres
+If you want to test serverless functions locally via `vercel dev`, ensure `DATABASE_URL` is exported in your shell or a `.env` file.
+
+### Fallback to SQLite locally
+If `DATABASE_URL` is not set while running locally, the original SQLite database in `data-store/` is used. On Vercel you MUST supply Postgres because the filesystem is ephemeral.
+

@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.server.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": ".",
+    "types": ["node", "@vercel/node"]
+  },
+  "include": ["api/**/*", "server/**/*"],
+  "exclude": ["node_modules", "dist", "dist-server"]
+}
