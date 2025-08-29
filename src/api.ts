@@ -17,7 +17,7 @@ export interface ApiPlanEntry {
   createdAt?: string; // timestamp when inserted
 }
 
-export interface ApiEntriesResponse { entries: ApiPlanEntry[] }
+export interface ApiEntriesResponse { entries: ApiPlanEntry[]; total: number; limit: number; offset: number }
 export interface ApiClassesResponse { classes: string[] }
 export interface ApiStatsResponse { totalEntries: number; daysTracked: number; avgPerDay: number }
 
@@ -30,7 +30,16 @@ async function getJson<T>(url: string): Promise<T> {
 }
 
 export const api = {
-  entries: () => getJson<ApiEntriesResponse>('/api/entries'),
+  entries: (params?: { limit?: number; offset?: number; sort?: 'asc' | 'desc'; className?: string; day?: string }) => {
+    const qs = new URLSearchParams();
+    if (params?.limit) qs.set('limit', String(params.limit));
+    if (params?.offset) qs.set('offset', String(params.offset));
+    if (params?.sort) qs.set('sort', params.sort);
+    if (params?.className) qs.set('class', params.className);
+    if (params?.day) qs.set('day', params.day);
+    const suffix = qs.toString() ? ('?' + qs.toString()) : '';
+    return getJson<ApiEntriesResponse>('/api/entries' + suffix);
+  },
   classes: () => getJson<ApiClassesResponse>('/api/classes'),
   stats: () => getJson<ApiStatsResponse>('/api/stats'),
 };

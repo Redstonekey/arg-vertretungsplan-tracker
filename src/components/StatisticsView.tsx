@@ -8,6 +8,10 @@ interface StatisticsViewProps {
 }
 
 const StatisticsView: React.FC<StatisticsViewProps> = ({ downtimes, classStats }) => {
+  const cancellationReasons = useMemo(() => ['Ausfall', 'Eigenverantw. Lernen'], []);
+
+  const cancellationDowntimes = useMemo(() => downtimes.filter(dt => cancellationReasons.includes(dt.reason)), [downtimes, cancellationReasons]);
+
   const monthlyStats = useMemo((): MonthStats[] => {
     const months = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
     const currentMonth = new Date().getMonth();
@@ -15,7 +19,7 @@ const StatisticsView: React.FC<StatisticsViewProps> = ({ downtimes, classStats }
     for (let i = 0; i < 6; i++) {
       const monthIndex = (currentMonth - i + 12) % 12;
       const monthName = months[monthIndex];
-      const monthDowntimes = downtimes.filter(dt => dt.date.getMonth() === monthIndex).length;
+  const monthDowntimes = cancellationDowntimes.filter(dt => dt.date.getMonth() === monthIndex).length;
       stats.unshift({
         month: monthName,
         downtimes: monthDowntimes,
@@ -23,32 +27,36 @@ const StatisticsView: React.FC<StatisticsViewProps> = ({ downtimes, classStats }
       });
     }
     return stats;
-  }, [downtimes]);
+  }, [cancellationDowntimes]);
 
-  const totalDowntimes = downtimes.length;
-  const averagePerClass = Math.round((totalDowntimes / classStats.length) * 10) / 10;
-  const mostAffectedClass = classStats.reduce((max, stat) => (stat.totalDowntimes > max.totalDowntimes ? stat : max), classStats[0]);
-  const leastAffectedClass = classStats.reduce((min, stat) => (stat.totalDowntimes < min.totalDowntimes ? stat : min), classStats[0]);
+  // Only cancellations (Ausfall + Eigenverantw. Lernen) are considered "Ausfälle" KPIs
+  const totalCancellations = cancellationDowntimes.length;
+  const averagePerClass = classStats.length ? Math.round((totalCancellations / classStats.length) * 10) / 10 : 0;
+  const mostAffectedClass = classStats.length ? classStats.reduce((max, stat) => (stat.totalDowntimes > max.totalDowntimes ? stat : max), classStats[0]) : undefined;
+  const leastAffectedClass = classStats.length ? classStats.reduce((min, stat) => (stat.totalDowntimes < min.totalDowntimes ? stat : min), classStats[0]) : undefined;
 
   const reasonStats = useMemo(() => {
-    const stats = downtimes.reduce((acc, dt) => {
+    if (!downtimes.length) return [] as { reason: string; count: number; percentage: number }[];
+    // Count all reasons across ALL downtimes (not just cancellations)
+    const counts = downtimes.reduce((acc, dt) => {
       acc[dt.reason] = (acc[dt.reason] || 0) + 1;
       return acc;
     }, {} as Record<string, number>);
-
-    return Object.entries(stats)
+    const totalForReasons = Object.values(counts).reduce((a, b) => a + b, 0) || 1; // avoid div by 0
+    return Object.entries(counts)
       .map(([reason, count]) => ({
         reason,
         count,
-        percentage: Math.round(((count / totalDowntimes) * 100) * 10) / 10
+        percentage: Math.round((count / totalForReasons * 100) * 10) / 10
       }))
       .sort((a, b) => b.count - a.count);
-  }, [downtimes, totalDowntimes]);
+  }, [downtimes]);
 
   const getReasonColor = (reason: string) => {
     switch (reason) {
       case 'Ausfall': return 'bg-red-500';
-      case 'Vertretung': return 'bg-blue-500';
+  case 'Vertretung': return 'bg-blue-500';
+  case 'Eigenverantw. Lernen': return 'bg-purple-500';
       case 'Raumwechsel': return 'bg-yellow-500';
       case 'Verlegung': return 'bg-green-500';
       default: return 'bg-gray-500';
@@ -63,7 +71,7 @@ const StatisticsView: React.FC<StatisticsViewProps> = ({ downtimes, classStats }
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {[{
-          label: 'Gesamte Ausfälle', value: totalDowntimes, icon: <Calendar className="h-6 w-6 text-brand-600" />, iconBg: 'bg-brand-100 dark:bg-brand-500/10'
+          label: 'Gesamte Ausfälle (nur Ausfall + Eigenverantw.)', value: totalCancellations, icon: <Calendar className="h-6 w-6 text-brand-600" />, iconBg: 'bg-brand-100 dark:bg-brand-500/10'
         }, {
           label: 'Durchschnitt/Klasse', value: averagePerClass, icon: <Target className="h-6 w-6 text-green-600" />, iconBg: 'bg-green-100 dark:bg-green-500/10'
         }, {
@@ -99,7 +107,7 @@ const StatisticsView: React.FC<StatisticsViewProps> = ({ downtimes, classStats }
           </div>
         </div>
         <div className="bg-white dark:bg-gray-900 rounded-lg shadow-sm border border-gray-200 dark:border-gray-800 p-6">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">Ausfallgründe</h3>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">Ausfallgründe / Änderungen</h3>
           <div className="space-y-4">
             {reasonStats.map((stat, index) => (
               <div key={index} className="flex items-center gap-4">

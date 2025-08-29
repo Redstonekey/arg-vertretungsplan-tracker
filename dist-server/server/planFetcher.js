@@ -1,7 +1,9 @@
 import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
 import iconv from 'iconv-lite';
-const BASE_URL = 'https://arg-heusenstamm.de/vertretungsplan/allgemein/35/w/';
+import { CONFIG } from './config.js';
+// BASE_URL configurable through environment to survive domain/path changes without code edits.
+const BASE_URL = CONFIG.baseUrl.endsWith('/') ? CONFIG.baseUrl : CONFIG.baseUrl + '/';
 const WEEKDAY_MAP = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
 function parseGermanDate(dateStr) {
     // pattern: 25.8. Montag  OR 27.8. Mittwoch
@@ -21,7 +23,7 @@ function parseGermanDate(dateStr) {
 }
 export async function fetchAllPlans(range = {}) {
     const from = range.from ?? 1;
-    const to = range.to ?? 99;
+    const to = Math.min(range.to ?? CONFIG.maxPages, CONFIG.maxPages);
     const entries = [];
     for (let i = from; i <= to; i++) {
         const num = i.toString().padStart(2, '0');
@@ -30,7 +32,7 @@ export async function fetchAllPlans(range = {}) {
             const url = BASE_URL + page;
             const res = await fetch(url, {
                 headers: {
-                    'User-Agent': 'VertretungsplanTrackerBot/1.0 (+https://example.local)'
+                    'User-Agent': CONFIG.userAgent
                 }
             });
             if (!res.ok)

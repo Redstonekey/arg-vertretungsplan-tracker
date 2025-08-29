@@ -4,7 +4,9 @@ export interface Downtime {
   class: string;
   subject: string;
   teacher: string;
-  reason: 'Ausfall' | 'Vertretung' | 'Raumwechsel' | 'Verlegung';
+  // "Eigenverantw. Lernen" wird ähnlich wie "Ausfall" (Unterricht entfällt / Selbstlernzeit) behandelt,
+  // soll aber als eigener Grund angezeigt werden.
+  reason: 'Ausfall' | 'Eigenverantw. Lernen' | 'Vertretung' | 'Raumwechsel' | 'Verlegung';
   notes?: string;
   period: number;
 }

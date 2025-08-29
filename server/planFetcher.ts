@@ -2,8 +2,9 @@ import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
 import iconv from 'iconv-lite';
 import { PlanEntryRow } from './db.js';
-
-const BASE_URL = 'https://arg-heusenstamm.de/vertretungsplan/allgemein/35/w/';
+import { CONFIG } from './config.js';
+// BASE_URL configurable through environment to survive domain/path changes without code edits.
+const BASE_URL = CONFIG.baseUrl.endsWith('/') ? CONFIG.baseUrl : CONFIG.baseUrl + '/';
 
 export interface FetchResult {
 	entries: PlanEntryRow[];
@@ -29,7 +30,7 @@ function parseGermanDate(dateStr: string): { iso: string; weekday: string } | un
 
 export async function fetchAllPlans(range: { from?: number; to?: number } = {}): Promise<FetchResult> {
 	const from = range.from ?? 1;
-	const to = range.to ?? 99;
+	const to = Math.min(range.to ?? CONFIG.maxPages, CONFIG.maxPages);
 	const entries: PlanEntryRow[] = [];
 	for (let i = from; i <= to; i++) {
 		const num = i.toString().padStart(2, '0');
@@ -38,7 +39,7 @@ export async function fetchAllPlans(range: { from?: number; to?: number } = {}):
 				const url = BASE_URL + page;
 				const res = await fetch(url, {
 					headers: {
-						'User-Agent': 'VertretungsplanTrackerBot/1.0 (+https://example.local)'
+						'User-Agent': CONFIG.userAgent
 					}
 				});
 			if (!res.ok) continue;

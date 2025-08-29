@@ -159,18 +159,22 @@ export async function appendEntries(newEntries: PlanEntryRow[]) {
 		return inserted;
 }
 
-export async function getEntries(filter?: { day?: string; className?: string }) {
+export async function getEntries(filter?: { day?: string; className?: string; limit?: number; offset?: number; sort?: 'asc' | 'desc'; }) {
 	await migrateLegacyJsonIfPresent();
 		const con = await connect();
-	let sql = 'SELECT * FROM entries';
 	const params: any[] = [];
 	const where: string[] = [];
 	if (filter?.day) { where.push('day = ?'); params.push(filter.day); }
 	if (filter?.className) { where.push('classes LIKE ?'); params.push(`%${filter.className.toUpperCase()}%`); }
-	if (where.length) sql += ' WHERE ' + where.join(' AND ');
-	sql += ' ORDER BY day ASC, lesson ASC';
-		const rows = await con.all(sql, params);
-	return rows.map(r => ({
+	let whereSql = where.length ? ' WHERE ' + where.join(' AND ') : '';
+	const orderDir = filter?.sort === 'desc' ? 'DESC' : 'ASC';
+	const limit = typeof filter?.limit === 'number' && filter.limit > 0 ? filter.limit : 500;
+	const offset = typeof filter?.offset === 'number' && filter.offset >= 0 ? filter.offset : 0;
+	// Get total count first (without limit) for pagination UI
+	const countRow: any = await con.get(`SELECT COUNT(*) as total FROM entries${whereSql}`, params);
+	let sql = `SELECT * FROM entries${whereSql} ORDER BY day ${orderDir}, lesson ${orderDir} LIMIT ? OFFSET ?`;
+	const rows = await con.all(sql, [...params, limit, offset]);
+	const mapped = rows.map(r => ({
 		classes: (r.classes as string).split(',').map(c => c.trim()).filter(Boolean),
 		lesson: r.lesson,
 		teacher: r.teacher || undefined,
@@ -188,6 +192,7 @@ export async function getEntries(filter?: { day?: string; className?: string }) 
 		changed: !!r.changed,
 		createdAt: r.created_at
 	})) as PlanEntryRow[];
+	return { entries: mapped, total: countRow?.total || 0 };
 }
 
 export async function logFetch(entry: RawFetchLogEntry) {
@@ -207,6 +212,11 @@ export async function getFetchLog(limit = 50) {
 		const data: RawFetchLogEntry[] = raw ? JSON.parse(raw) : [];
 		return data.slice(-limit).reverse();
 	} catch { return []; }
+}
+
+export async function getLastSuccessfulFetch(): Promise<RawFetchLogEntry | undefined> {
+	const log = await getFetchLog(200);
+	return log.find(e => e.success);
 }
 
 export async function getStats() {

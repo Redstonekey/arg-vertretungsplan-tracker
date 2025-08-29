@@ -104,7 +104,6 @@ export async function appendEntries(newEntries) {
 export async function getEntries(filter) {
     await migrateLegacyJsonIfPresent();
     const con = await connect();
-    let sql = 'SELECT * FROM entries';
     const params = [];
     const where = [];
     if (filter?.day) {
@@ -115,11 +114,15 @@ export async function getEntries(filter) {
         where.push('classes LIKE ?');
         params.push(`%${filter.className.toUpperCase()}%`);
     }
-    if (where.length)
-        sql += ' WHERE ' + where.join(' AND ');
-    sql += ' ORDER BY day ASC, lesson ASC';
-    const rows = await con.all(sql, params);
-    return rows.map(r => ({
+    let whereSql = where.length ? ' WHERE ' + where.join(' AND ') : '';
+    const orderDir = filter?.sort === 'desc' ? 'DESC' : 'ASC';
+    const limit = typeof filter?.limit === 'number' && filter.limit > 0 ? filter.limit : 500;
+    const offset = typeof filter?.offset === 'number' && filter.offset >= 0 ? filter.offset : 0;
+    // Get total count first (without limit) for pagination UI
+    const countRow = await con.get(`SELECT COUNT(*) as total FROM entries${whereSql}`, params);
+    let sql = `SELECT * FROM entries${whereSql} ORDER BY day ${orderDir}, lesson ${orderDir} LIMIT ? OFFSET ?`;
+    const rows = await con.all(sql, [...params, limit, offset]);
+    const mapped = rows.map(r => ({
         classes: r.classes.split(',').map(c => c.trim()).filter(Boolean),
         lesson: r.lesson,
         teacher: r.teacher || undefined,
@@ -137,6 +140,7 @@ export async function getEntries(filter) {
         changed: !!r.changed,
         createdAt: r.created_at
     }));
+    return { entries: mapped, total: countRow?.total || 0 };
 }
 export async function logFetch(entry) {
     await fs.mkdir(DATA_DIR, { recursive: true });
@@ -158,6 +162,10 @@ export async function getFetchLog(limit = 50) {
     catch {
         return [];
     }
+}
+export async function getLastSuccessfulFetch() {
+    const log = await getFetchLog(200);
+    return log.find(e => e.success);
 }
 export async function getStats() {
     const con = await connect();
