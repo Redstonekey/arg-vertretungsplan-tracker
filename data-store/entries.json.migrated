@@ -1,0 +1,2124 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "classes": [
+        "05",
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Hr. Spannaus",
+      "subject": "AG HSBAND",
+      "originalSubject": "AG HSBAND",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00001.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:47.785Z"
+    },
+    {
+      "classes": [
+        "05A"
+      ],
+      "lesson": "5",
+      "teacher": "Hr. Kaletta (Malte)",
+      "subject": "MU",
+      "originalSubject": "MU",
+      "room": "A1",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00002.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:47.841Z"
+    },
+    {
+      "classes": [
+        "05A"
+      ],
+      "lesson": "6",
+      "teacher": "Hr. Kaletta (Malte)",
+      "subject": "MU",
+      "originalSubject": "MU",
+      "room": "A1",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00002.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:47.841Z"
+    },
+    {
+      "classes": [
+        "05B"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Pop",
+      "subject": "E 1.FS",
+      "originalSubject": "E 1.FS",
+      "room": "A5",
+      "type": "Vertretung (s)",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00003.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:47.889Z"
+    },
+    {
+      "classes": [
+        "05C"
+      ],
+      "lesson": "5 - 6",
+      "teacher": "Fr. Roosen",
+      "subject": "E 1.FS",
+      "originalSubject": "E 1.FS",
+      "room": "A2",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00004.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:47.936Z"
+    },
+    {
+      "classes": [
+        "05C",
+        "05D"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Fr. Biehrer",
+      "subject": "REV",
+      "originalSubject": "REV",
+      "room": "A4",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00004.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:47.936Z"
+    },
+    {
+      "classes": [
+        "05C"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Schmuck",
+      "subject": "KU",
+      "originalSubject": "KU",
+      "room": "K101",
+      "type": "Vertretung (s)",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00004.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:47.936Z"
+    },
+    {
+      "classes": [
+        "05D"
+      ],
+      "lesson": "3",
+      "teacher": "Fr. Roosen",
+      "subject": "CABC",
+      "originalSubject": "CABC",
+      "room": "C101",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00005.htm",
+      "color": "#F8075B",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:47.990Z"
+    },
+    {
+      "classes": [
+        "05D"
+      ],
+      "lesson": "4",
+      "teacher": "Fr. Roosen",
+      "subject": "CABC",
+      "originalSubject": "CABC",
+      "room": "C101",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00005.htm",
+      "color": "#F8075B",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:47.990Z"
+    },
+    {
+      "classes": [
+        "05C",
+        "05D"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Fr. Biehrer",
+      "subject": "REV",
+      "originalSubject": "REV",
+      "room": "A4",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00005.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:47.990Z"
+    },
+    {
+      "classes": [
+        "05E"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Stohr",
+      "subject": "GEO",
+      "originalSubject": "GEO",
+      "room": "A4",
+      "type": "Vertretung (s)",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00006.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.031Z"
+    },
+    {
+      "classes": [
+        "05F"
+      ],
+      "lesson": "3",
+      "teacher": "Fr. Nuß",
+      "subject": "E 2.FS",
+      "originalSubject": "E 2.FS",
+      "room": "A2",
+      "type": "Unterricht geändert",
+      "text": "Dauerhafte Raumänderung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00007.htm",
+      "cancelled": false,
+      "changed": true,
+      "createdAt": "2025-08-26T13:11:48.073Z"
+    },
+    {
+      "classes": [
+        "05",
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Hr. Spannaus",
+      "subject": "AG HSBAND",
+      "originalSubject": "AG HSBAND",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00008.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.124Z"
+    },
+    {
+      "classes": [
+        "06A"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Gadzo",
+      "subject": "SV",
+      "room": "D2",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00009.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.171Z"
+    },
+    {
+      "classes": [
+        "06B"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Beyrich-Kurbel",
+      "subject": "SV",
+      "room": "D4",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00010.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.215Z"
+    },
+    {
+      "classes": [
+        "06C"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Schmaltz",
+      "subject": "SV",
+      "room": "D5",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00011.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.267Z"
+    },
+    {
+      "classes": [
+        "06D"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Menge",
+      "subject": "SV",
+      "originalSubject": "B",
+      "room": "C204",
+      "type": "Unterricht geändert",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00012.htm",
+      "cancelled": false,
+      "changed": true,
+      "createdAt": "2025-08-26T13:11:48.319Z"
+    },
+    {
+      "classes": [
+        "06E"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Müller",
+      "subject": "SV",
+      "room": "D104",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00013.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.358Z"
+    },
+    {
+      "classes": [
+        "06E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Fr. Biehrer",
+      "subject": "GEO",
+      "originalSubject": "GEO",
+      "room": "D104",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00013.htm",
+      "color": "#F8075B",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.358Z"
+    },
+    {
+      "classes": [
+        "06G"
+      ],
+      "lesson": "1",
+      "teacher": "Hr. Kaletta (Malte)",
+      "subject": "G",
+      "originalSubject": "G",
+      "room": "D101",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00014.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.403Z"
+    },
+    {
+      "classes": [
+        "06G"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. El-Bialy",
+      "subject": "SV",
+      "room": "D101",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00014.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.403Z"
+    },
+    {
+      "classes": [
+        "06F"
+      ],
+      "lesson": "1 - 2",
+      "teacher": "Fr. Biehrer",
+      "subject": "G",
+      "originalSubject": "G",
+      "room": "A101",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00015.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.453Z"
+    },
+    {
+      "classes": [
+        "06F"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Fleckenstein",
+      "subject": "SV",
+      "room": "A101",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00015.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.454Z"
+    },
+    {
+      "classes": [
+        "05",
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Hr. Spannaus",
+      "subject": "AG HSBAND",
+      "originalSubject": "AG HSBAND",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00016.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.502Z"
+    },
+    {
+      "classes": [
+        "07A"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Gemici",
+      "subject": "SV",
+      "room": "A103",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00017.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.550Z"
+    },
+    {
+      "classes": [
+        "07B"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Klauke",
+      "subject": "SV",
+      "room": "A102",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00018.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.598Z"
+    },
+    {
+      "classes": [
+        "07C"
+      ],
+      "lesson": "1 - 2",
+      "teacher": "Fr. Roosen",
+      "subject": "SP",
+      "originalSubject": "SP",
+      "room": "A108",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00019.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.642Z"
+    },
+    {
+      "classes": [
+        "07C"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Merkel",
+      "subject": "SV",
+      "room": "A108",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00019.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.642Z"
+    },
+    {
+      "classes": [
+        "07C"
+      ],
+      "lesson": "5 - 6",
+      "teacher": "Hr. Geweniger",
+      "subject": "SP",
+      "originalSubject": "SP",
+      "room": "TU1",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00019.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.642Z"
+    },
+    {
+      "classes": [
+        "07D"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Erdogan",
+      "subject": "SV",
+      "originalSubject": "SV",
+      "room": "A03",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00020.htm",
+      "color": "#F8075B",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.685Z"
+    },
+    {
+      "classes": [
+        "07F"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Fr. Roosen",
+      "subject": "D",
+      "originalSubject": "D",
+      "room": "A02",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00021.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.729Z"
+    },
+    {
+      "classes": [
+        "07F"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Wiese",
+      "subject": "SV",
+      "originalSubject": "M",
+      "room": "A02",
+      "type": "Unterricht geändert",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00021.htm",
+      "cancelled": false,
+      "changed": true,
+      "createdAt": "2025-08-26T13:11:48.729Z"
+    },
+    {
+      "classes": [
+        "05",
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Hr. Spannaus",
+      "subject": "AG HSBAND",
+      "originalSubject": "AG HSBAND",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00022.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.773Z"
+    },
+    {
+      "classes": [
+        "08A"
+      ],
+      "lesson": "5 - 6",
+      "teacher": "Fr. Harmsen",
+      "subject": "CH",
+      "originalSubject": "CH",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00023.htm",
+      "color": "#F8075B",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.822Z"
+    },
+    {
+      "classes": [
+        "08A"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Hänsel",
+      "subject": "SV",
+      "room": "A104",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00023.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.823Z"
+    },
+    {
+      "classes": [
+        "08B"
+      ],
+      "lesson": "5 - 6",
+      "teacher": "Fr. Harmsen",
+      "subject": "CH",
+      "originalSubject": "CH",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00024.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.864Z"
+    },
+    {
+      "classes": [
+        "08B"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Sander",
+      "subject": "SV",
+      "room": "A113",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00024.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.864Z"
+    },
+    {
+      "classes": [
+        "08C"
+      ],
+      "lesson": "5 - 6",
+      "teacher": "Hr. Steinle",
+      "subject": "SP",
+      "originalSubject": "SP",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00025.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.912Z"
+    },
+    {
+      "classes": [
+        "08C"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Knoll",
+      "subject": "SV",
+      "originalSubject": "M",
+      "room": "A114",
+      "type": "Unterricht geändert",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00025.htm",
+      "cancelled": false,
+      "changed": true,
+      "createdAt": "2025-08-26T13:11:48.912Z"
+    },
+    {
+      "classes": [
+        "08C"
+      ],
+      "lesson": "3",
+      "teacher": "Fr. Velten",
+      "subject": "G",
+      "originalSubject": "SP",
+      "room": "A115",
+      "type": "Verlegung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00025.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.912Z"
+    },
+    {
+      "classes": [
+        "08C"
+      ],
+      "lesson": "4",
+      "teacher": "Fr. Velten",
+      "subject": "G",
+      "originalSubject": "SP",
+      "room": "A115",
+      "type": "Verlegung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00025.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.912Z"
+    },
+    {
+      "classes": [
+        "08C"
+      ],
+      "lesson": "5",
+      "teacher": "Fr. Velten",
+      "subject": "G",
+      "originalSubject": "G",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00025.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.912Z"
+    },
+    {
+      "classes": [
+        "08C"
+      ],
+      "lesson": "6",
+      "teacher": "Fr. Velten",
+      "subject": "G",
+      "originalSubject": "G",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00025.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.912Z"
+    },
+    {
+      "classes": [
+        "08D"
+      ],
+      "lesson": "1 - 2",
+      "teacher": "Fr. Simon",
+      "subject": "L",
+      "originalSubject": "L",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00026.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.963Z"
+    },
+    {
+      "classes": [
+        "08D"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "L",
+      "originalSubject": "L",
+      "room": "A110",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00026.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.963Z"
+    },
+    {
+      "classes": [
+        "08D"
+      ],
+      "lesson": "1",
+      "teacher": "Fr. Simon",
+      "subject": "G",
+      "originalSubject": "G",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00026.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.963Z"
+    },
+    {
+      "classes": [
+        "08D"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Simon",
+      "subject": "G",
+      "originalSubject": "G",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00026.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.963Z"
+    },
+    {
+      "classes": [
+        "08D"
+      ],
+      "lesson": "7",
+      "teacher": "Hr. El-Bialy",
+      "subject": "SP",
+      "originalSubject": "SP",
+      "room": "TU1",
+      "type": "Verlegung",
+      "text": "4.9. / 7 (Unt.: 237)",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00026.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.963Z"
+    },
+    {
+      "classes": [
+        "08D"
+      ],
+      "lesson": "8",
+      "teacher": "Hr. El-Bialy",
+      "subject": "SP",
+      "originalSubject": "SP",
+      "room": "TU1",
+      "type": "Verlegung",
+      "text": "4.9. / 8 (Unt.: 237)",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00026.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:48.964Z"
+    },
+    {
+      "classes": [
+        "08E"
+      ],
+      "lesson": "1 - 2",
+      "teacher": "Fr. Erdogan",
+      "subject": "D",
+      "originalSubject": "D",
+      "room": "C101",
+      "type": "Raumwechsel",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00027.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.007Z"
+    },
+    {
+      "classes": [
+        "08E"
+      ],
+      "lesson": "1 - 2",
+      "teacher": "Hr. Steinle",
+      "subject": "SP",
+      "originalSubject": "SP",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00027.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.007Z"
+    },
+    {
+      "classes": [
+        "08E"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Neumann",
+      "subject": "SV",
+      "room": "A115",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00027.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.007Z"
+    },
+    {
+      "classes": [
+        "08F"
+      ],
+      "lesson": "1",
+      "teacher": "Fr. Harmsen",
+      "subject": "GEO",
+      "originalSubject": "GEO",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00028.htm",
+      "color": "#F8075B",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.056Z"
+    },
+    {
+      "classes": [
+        "08F"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Burger",
+      "subject": "SV",
+      "room": "A111",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00028.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.056Z"
+    },
+    {
+      "classes": [
+        "05",
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Hr. Spannaus",
+      "subject": "AG HSBAND",
+      "originalSubject": "AG HSBAND",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00029.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.102Z"
+    },
+    {
+      "classes": [
+        "09A"
+      ],
+      "lesson": "1 - 2",
+      "teacher": "Fr. Eckert",
+      "subject": "SP",
+      "originalSubject": "SP",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00030.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.141Z"
+    },
+    {
+      "classes": [
+        "09A"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Fr. Simon",
+      "subject": "G",
+      "originalSubject": "G",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00030.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.141Z"
+    },
+    {
+      "classes": [
+        "09B",
+        "09E",
+        "09F",
+        "09A",
+        "09D"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Fr. Harmsen",
+      "subject": "WU NAWI",
+      "originalSubject": "WU NAWI",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00030.htm",
+      "color": "#F8075B",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.141Z"
+    },
+    {
+      "classes": [
+        "09A",
+        "09B",
+        "09D",
+        "09E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "L 2.FS",
+      "originalSubject": "L 2.FS",
+      "room": "A206",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00030.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.141Z"
+    },
+    {
+      "classes": [
+        "09A"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Faber",
+      "subject": "SV",
+      "room": "A204",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00030.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.141Z"
+    },
+    {
+      "classes": [
+        "09B",
+        "09E",
+        "09F",
+        "09A",
+        "09D"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Fr. Harmsen",
+      "subject": "WU NAWI",
+      "originalSubject": "WU NAWI",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00031.htm",
+      "color": "#F8075B",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.181Z"
+    },
+    {
+      "classes": [
+        "09A",
+        "09B",
+        "09D",
+        "09E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "L 2.FS",
+      "originalSubject": "L 2.FS",
+      "room": "A206",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00031.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.181Z"
+    },
+    {
+      "classes": [
+        "09B"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Rink",
+      "subject": "SV",
+      "originalSubject": "D",
+      "room": "A208",
+      "type": "Unterricht geändert",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00031.htm",
+      "cancelled": false,
+      "changed": true,
+      "createdAt": "2025-08-26T13:11:49.181Z"
+    },
+    {
+      "classes": [
+        "09B",
+        "09E",
+        "09F",
+        "09A",
+        "09D"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Fr. Harmsen",
+      "subject": "WU NAWI",
+      "originalSubject": "WU NAWI",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00032.htm",
+      "color": "#F8075B",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.229Z"
+    },
+    {
+      "classes": [
+        "09A",
+        "09B",
+        "09D",
+        "09E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "L 2.FS",
+      "originalSubject": "L 2.FS",
+      "room": "A206",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00032.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.229Z"
+    },
+    {
+      "classes": [
+        "09D"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Rübsamen",
+      "subject": "SV",
+      "room": "A202",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00032.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.229Z"
+    },
+    {
+      "classes": [
+        "09D",
+        "09F",
+        "09E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "REV",
+      "originalSubject": "REV",
+      "room": "A101",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00032.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.229Z"
+    },
+    {
+      "classes": [
+        "09B",
+        "09E",
+        "09F",
+        "09A",
+        "09D"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Fr. Harmsen",
+      "subject": "WU NAWI",
+      "originalSubject": "WU NAWI",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00033.htm",
+      "color": "#F8075B",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.279Z"
+    },
+    {
+      "classes": [
+        "09A",
+        "09B",
+        "09D",
+        "09E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "L 2.FS",
+      "originalSubject": "L 2.FS",
+      "room": "A206",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00033.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.279Z"
+    },
+    {
+      "classes": [
+        "09E"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Saelz",
+      "subject": "SV",
+      "room": "A203",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00033.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.279Z"
+    },
+    {
+      "classes": [
+        "09D",
+        "09F",
+        "09E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "REV",
+      "originalSubject": "REV",
+      "room": "A101",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00033.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.279Z"
+    },
+    {
+      "classes": [
+        "09B",
+        "09E",
+        "09F",
+        "09A",
+        "09D"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Fr. Harmsen",
+      "subject": "WU NAWI",
+      "originalSubject": "WU NAWI",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00034.htm",
+      "color": "#F8075B",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.324Z"
+    },
+    {
+      "classes": [
+        "09F"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Hardt",
+      "subject": "SV",
+      "room": "A112",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00034.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.325Z"
+    },
+    {
+      "classes": [
+        "09D",
+        "09F",
+        "09E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "REV",
+      "originalSubject": "REV",
+      "room": "A101",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00034.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.325Z"
+    },
+    {
+      "classes": [
+        "10A",
+        "10B",
+        "10C",
+        "10D",
+        "10E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "L 2.FS",
+      "originalSubject": "L 2.FS",
+      "room": "A211",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00036.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.416Z"
+    },
+    {
+      "classes": [
+        "10A"
+      ],
+      "lesson": "5 - 6",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "SP",
+      "originalSubject": "SP",
+      "room": "A201",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00036.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.416Z"
+    },
+    {
+      "classes": [
+        "10A"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Küchemann",
+      "subject": "SV",
+      "room": "A201",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00036.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.416Z"
+    },
+    {
+      "classes": [
+        "10A",
+        "10B",
+        "10C",
+        "10D",
+        "10E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "L 2.FS",
+      "originalSubject": "L 2.FS",
+      "room": "A211",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00037.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.461Z"
+    },
+    {
+      "classes": [
+        "10B"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Rabanal",
+      "subject": "SV",
+      "room": "A213",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00037.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.462Z"
+    },
+    {
+      "classes": [
+        "10A",
+        "10B",
+        "10C",
+        "10D",
+        "10E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "L 2.FS",
+      "originalSubject": "L 2.FS",
+      "room": "A211",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00038.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.507Z"
+    },
+    {
+      "classes": [
+        "10C"
+      ],
+      "lesson": "1",
+      "teacher": "Hr. Steinle",
+      "subject": "SP",
+      "originalSubject": "SP",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00038.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.507Z"
+    },
+    {
+      "classes": [
+        "10C"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Steinle",
+      "subject": "SP",
+      "originalSubject": "SP",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00038.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.507Z"
+    },
+    {
+      "classes": [
+        "10A",
+        "10B",
+        "10C",
+        "10D",
+        "10E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "L 2.FS",
+      "originalSubject": "L 2.FS",
+      "room": "A211",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00039.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.551Z"
+    },
+    {
+      "classes": [
+        "10D"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Schneider",
+      "subject": "SV",
+      "room": "A212",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00039.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.551Z"
+    },
+    {
+      "classes": [
+        "10A",
+        "10B",
+        "10C",
+        "10D",
+        "10E"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "L 2.FS",
+      "originalSubject": "L 2.FS",
+      "room": "A211",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00040.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.595Z"
+    },
+    {
+      "classes": [
+        "10E"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Ziller",
+      "subject": "SV",
+      "room": "A214",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00040.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.596Z"
+    },
+    {
+      "classes": [
+        "10F"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Hanebuth",
+      "subject": "SV",
+      "room": "A215",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00041.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.640Z"
+    },
+    {
+      "classes": [
+        "10F"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Eigenverantw. Lernen",
+      "subject": "G",
+      "originalSubject": "G",
+      "room": "A215",
+      "type": "Vertretung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00041.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.640Z"
+    },
+    {
+      "classes": [
+        "E1/E2"
+      ],
+      "lesson": "1 - 2",
+      "teacher": "Hr. Spannaus",
+      "subject": "MU5",
+      "originalSubject": "MU5",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00042.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.686Z"
+    },
+    {
+      "classes": [
+        "E1/E2"
+      ],
+      "lesson": "1 - 2",
+      "teacher": "Fr. Dr. Scheich",
+      "subject": "CH7",
+      "originalSubject": "CH7",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00042.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.686Z"
+    },
+    {
+      "classes": [
+        "E1/E2"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Fr. Dr. Scheich",
+      "subject": "B-VK2",
+      "originalSubject": "B-VK2",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00042.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.686Z"
+    },
+    {
+      "classes": [
+        "E1/E2"
+      ],
+      "lesson": "1",
+      "teacher": "Fr. Schulz",
+      "subject": "D10",
+      "originalSubject": "D10",
+      "room": "A215",
+      "type": "Unterricht geändert",
+      "text": "Dauerhafte Raumänderung",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00042.htm",
+      "cancelled": false,
+      "changed": true,
+      "createdAt": "2025-08-26T13:11:49.686Z"
+    },
+    {
+      "classes": [
+        "E1/E2"
+      ],
+      "lesson": "5 - 6",
+      "teacher": "Fr. Simon",
+      "subject": "L5",
+      "originalSubject": "L5",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00042.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.687Z"
+    },
+    {
+      "classes": [
+        "E1/E2"
+      ],
+      "lesson": "5 - 6",
+      "teacher": "+",
+      "subject": "SP5",
+      "originalSubject": "SP5",
+      "room": "C2",
+      "type": "Vtr. ohne Lehrer",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00042.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.687Z"
+    },
+    {
+      "classes": [
+        "E1/E2"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Velten",
+      "subject": "TUT",
+      "room": "A206",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00042.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.687Z"
+    },
+    {
+      "classes": [
+        "E1/E2"
+      ],
+      "lesson": "2",
+      "teacher": "+",
+      "subject": "TUT",
+      "room": "C2",
+      "type": "Vtr. ohne Lehrer",
+      "text": "Tutorien Fr. Brockmann und Hr. Kurbel",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00042.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.687Z"
+    },
+    {
+      "classes": [
+        "Q1/Q2"
+      ],
+      "lesson": "1 - 2",
+      "teacher": "Fr. Harmsen",
+      "subject": "GEO5",
+      "originalSubject": "GEO5",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00043.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.733Z"
+    },
+    {
+      "classes": [
+        "Q1/Q2"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Fr. Harmsen",
+      "subject": "GEO7",
+      "originalSubject": "GEO7",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00043.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.733Z"
+    },
+    {
+      "classes": [
+        "Q1/Q2"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Fr. Englisch",
+      "subject": "CH6",
+      "originalSubject": "CH6",
+      "room": "B2",
+      "type": "Raumwechsel",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00043.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.733Z"
+    },
+    {
+      "classes": [
+        "Q1/Q2"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Fr. Mühlbach",
+      "subject": "E1",
+      "originalSubject": "E1",
+      "room": "B101",
+      "type": "Raumwechsel",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00043.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.733Z"
+    },
+    {
+      "classes": [
+        "Q1/Q2"
+      ],
+      "lesson": "2",
+      "teacher": "Fr. Iding",
+      "subject": "TUT",
+      "room": "B102",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00043.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.733Z"
+    },
+    {
+      "classes": [
+        "Q1/Q2"
+      ],
+      "lesson": "2",
+      "teacher": "+",
+      "subject": "TUT",
+      "room": "C2",
+      "type": "Vtr. ohne Lehrer",
+      "text": "Tutorium Hr. Vettel",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00043.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.734Z"
+    },
+    {
+      "classes": [
+        "Q1/Q2"
+      ],
+      "lesson": "7 - 8",
+      "teacher": "Fr. Harmsen",
+      "subject": "GEO5",
+      "originalSubject": "GEO5",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00043.htm",
+      "color": "#F8075B",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.734Z"
+    },
+    {
+      "classes": [
+        "Q3/Q4"
+      ],
+      "lesson": "5 - 6",
+      "teacher": "+",
+      "subject": "B2",
+      "originalSubject": "B2",
+      "room": "C2",
+      "type": "Vtr. ohne Lehrer",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00044.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.775Z"
+    },
+    {
+      "classes": [
+        "Q3/Q4"
+      ],
+      "lesson": "7",
+      "teacher": "Fr. Rebhan",
+      "subject": "E3",
+      "originalSubject": "E3",
+      "room": "B102",
+      "type": "Unterricht geändert",
+      "text": "Arbeitsauftrag",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00044.htm",
+      "cancelled": false,
+      "changed": true,
+      "createdAt": "2025-08-26T13:11:49.775Z"
+    },
+    {
+      "classes": [
+        "Q3/Q4"
+      ],
+      "lesson": "8",
+      "teacher": "Fr. Rebhan",
+      "subject": "E3",
+      "originalSubject": "E3",
+      "room": "B102",
+      "type": "Unterricht geändert",
+      "text": "Findet statt!!!",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00044.htm",
+      "cancelled": false,
+      "changed": true,
+      "createdAt": "2025-08-26T13:11:49.776Z"
+    },
+    {
+      "classes": [
+        "Q3/Q4"
+      ],
+      "lesson": "9 - 10",
+      "teacher": "Hr. Geweniger",
+      "subject": "SP1",
+      "originalSubject": "SP1",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00044.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.776Z"
+    },
+    {
+      "classes": [
+        "Q3/Q4"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Ahmad",
+      "subject": "TUT",
+      "room": "B2",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00044.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.776Z"
+    },
+    {
+      "classes": [
+        "Q3/Q4"
+      ],
+      "lesson": "2",
+      "teacher": "+",
+      "subject": "TUT",
+      "room": "C2",
+      "type": "Vtr. ohne Lehrer",
+      "text": "Tutorium Hr. Geweniger",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00044.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.776Z"
+    },
+    {
+      "classes": [
+        "BER"
+      ],
+      "lesson": "2",
+      "teacher": "Hr. Kaletta (Malte)",
+      "subject": "BER",
+      "room": "A15",
+      "type": "Bereitschaft",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00045.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.823Z"
+    },
+    {
+      "classes": [
+        "LMF"
+      ],
+      "lesson": "3",
+      "teacher": "Fr. Hingst-Hock",
+      "subject": "LMF",
+      "originalSubject": "LMF",
+      "room": "---",
+      "type": "Entfall",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00049.htm",
+      "cancelled": true,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.990Z"
+    },
+    {
+      "classes": [
+        "LMF"
+      ],
+      "lesson": "3 - 4",
+      "teacher": "Hr. Rink",
+      "subject": "LMF",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00049.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.990Z"
+    },
+    {
+      "classes": [
+        "LMF"
+      ],
+      "lesson": "3",
+      "teacher": "Fr. Hingst-Hock",
+      "subject": "LMF",
+      "originalSubject": "LMF",
+      "type": "Unterricht geändert",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00049.htm",
+      "cancelled": false,
+      "changed": true,
+      "createdAt": "2025-08-26T13:11:49.990Z"
+    },
+    {
+      "classes": [
+        "LMF"
+      ],
+      "lesson": "4",
+      "teacher": "Fr. Hingst-Hock",
+      "subject": "LMF",
+      "type": "Sondereins.",
+      "day": "unknown",
+      "weekday": "unknown",
+      "weekType": "Woche B",
+      "sourcePage": "w00049.htm",
+      "cancelled": false,
+      "changed": false,
+      "createdAt": "2025-08-26T13:11:49.990Z"
+    }
+  ]
+}
