@@ -92,60 +92,7 @@ startServer(basePort).then(() => {
 			await sendAlert('Disk write test failed – possible read-only or full disk.', { component: 'server', severity: 'error', error: e });
 		}
 	})();
-	// In development, seed a few demo entries if DB empty so UI isn't blank
-	if (process.env.NODE_ENV !== 'production') {
-		(async () => {
-			try {
-				const existing = await getEntries();
-				if (existing.total === 0) {
-					const today = new Date();
-					const iso = today.toISOString().slice(0,10);
-					const weekday = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'][today.getDay()];
-					await appendEntries([
-						{
-							classes: ['5A','5B'],
-							lesson: '1',
-							teacher: 'HERR A',
-							subject: 'MATH',
-							originalSubject: 'MATH',
-							room: '101',
-							type: 'Vertretung',
-							text: 'Einspringen für Frau X',
-							day: iso,
-							weekday,
-							weekType: undefined,
-							sourcePage: 'seed',
-							color: undefined,
-							cancelled: false,
-							changed: false,
-							createdAt: new Date().toISOString()
-						},
-						{
-							classes: ['6C'],
-							lesson: '3',
-							teacher: 'FRAU B',
-							subject: 'DE',
-							originalSubject: 'DE',
-							room: '202',
-							type: 'Entfall',
-							text: 'Krankheit',
-							day: iso,
-							weekday,
-							weekType: undefined,
-							sourcePage: 'seed',
-							color: undefined,
-							cancelled: true,
-							changed: false,
-							createdAt: new Date().toISOString()
-						}
-					] as any);
-					console.log('Seeded demo entries (development only).');
-				}
-			} catch (e) {
-				console.warn('Seeding skipped / failed', (e as any).message);
-			}
-		})();
-	}
+	// No demo seeding: server reads only from the configured database.
 }).catch(err => {
 	console.error('Failed to start server', err);
 	process.exit(1);
